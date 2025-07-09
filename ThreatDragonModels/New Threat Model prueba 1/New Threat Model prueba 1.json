@@ -309,7 +309,7 @@
               "body": {
                 "stroke": "red",
                 "strokeWidth": 2.5,
-                "strokeDasharray": null
+                "strokeDasharray": "4 3"
               }
             },
             "visible": true,
@@ -402,7 +402,7 @@
               "type": "tm.Process",
               "name": "Pasarela de pagos",
               "description": "Pasarela externa",
-              "outOfScope": false,
+              "outOfScope": true,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": true,
@@ -433,6 +433,13 @@
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -717,7 +724,7 @@
               "body": {
                 "stroke": "red",
                 "strokeWidth": 2.5,
-                "strokeDasharray": null
+                "strokeDasharray": "4 3"
               }
             },
             "visible": true,
@@ -811,7 +818,7 @@
               "name": "Navegador WEB",
               "description": "",
               "isTrustBoundary": false,
-              "outOfScope": false,
+              "outOfScope": true,
               "reasonOutOfScope": "",
               "hasOpenThreats": true,
               "providesAuthentication": false,
