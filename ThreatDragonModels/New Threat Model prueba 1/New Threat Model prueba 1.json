@@ -846,7 +846,12 @@
               "cell": "8b28c8ee-d5be-4eb0-8c21-032932d4a365",
               "port": "43a55ea1-418b-41f0-8da7-b67a7feaf79a"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 250,
+                "y": 70
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1119,7 +1124,7 @@
             "data": {
               "type": "tm.Flow",
               "name": "Request",
-              "description": "",
+              "description": "Envía solicitud de ingreso a la aplicación",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
